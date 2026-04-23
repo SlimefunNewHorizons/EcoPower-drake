@@ -1,4 +1,4 @@
-package com.github.drakescraft-labs.ecopower.generators;
+package com.github.drakescraft_labs.ecopower.generators;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,12 +11,12 @@ import org.bukkit.entity.LightningStrike;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.github.drakescraft-labs.slimefun4.api.items.ItemGroup;
-import com.github.drakescraft-labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft-labs.slimefun4.api.items.SlimefunItemStack;
-import com.github.drakescraft-labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft-labs.slimefun4.core.attributes.EnergyNetProvider;
-import com.github.drakescraft-labs.slimefun4.core.networks.energy.EnergyNetComponentType;
+import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
+import com.github.drakescraft_labs.slimefun4.core.attributes.EnergyNetProvider;
+import com.github.drakescraft_labs.slimefun4.core.networks.energy.EnergyNetComponentType;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 
 /**

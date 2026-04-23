@@ -1,4 +1,4 @@
-package com.github.drakescraft-labs.ecopower;
+package com.github.drakescraft_labs.ecopower;
 
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Material;
@@ -6,28 +6,28 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.github.drakescraft-labs.ecopower.generators.HighEnergySolarGenerator;
-import com.github.drakescraft-labs.ecopower.generators.LightningReceptor;
-import com.github.drakescraft-labs.ecopower.generators.LunarGenerator;
-import com.github.drakescraft-labs.ecopower.generators.SteamTurbine;
-import com.github.drakescraft-labs.ecopower.generators.SteamTurbineMultiblock;
-import com.github.drakescraft-labs.ecopower.generators.WindTurbine;
-import com.github.drakescraft-labs.ecopower.generators.WindTurbineMultiblock;
-import com.github.drakescraft-labs.ecopower.items.SteelRotor;
-import com.github.drakescraft-labs.slimefun4.api.items.ItemGroup;
-import com.github.drakescraft-labs.slimefun4.api.items.SlimefunItemStack;
-import com.github.drakescraft-labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft-labs.slimefun4.api.SlimefunAddon;
-import com.github.drakescraft-labs.slimefun4.core.attributes.MachineTier;
-import com.github.drakescraft-labs.slimefun4.core.attributes.MachineType;
-import com.github.drakescraft-labs.slimefun4.implementation.SlimefunItems;
-import com.github.drakescraft-labs.slimefun4.implementation.items.electric.gadgets.SolarHelmet;
-import com.github.drakescraft-labs.slimefun4.implementation.items.electric.generators.SolarGenerator;
+import com.github.drakescraft_labs.ecopower.generators.HighEnergySolarGenerator;
+import com.github.drakescraft_labs.ecopower.generators.LightningReceptor;
+import com.github.drakescraft_labs.ecopower.generators.LunarGenerator;
+import com.github.drakescraft_labs.ecopower.generators.SteamTurbine;
+import com.github.drakescraft_labs.ecopower.generators.SteamTurbineMultiblock;
+import com.github.drakescraft_labs.ecopower.generators.WindTurbine;
+import com.github.drakescraft_labs.ecopower.generators.WindTurbineMultiblock;
+import com.github.drakescraft_labs.ecopower.items.SteelRotor;
+import com.github.drakescraft_labs.slimefun4.api.items.ItemGroup;
+import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
+import com.github.drakescraft_labs.slimefun4.api.SlimefunAddon;
+import com.github.drakescraft_labs.slimefun4.core.attributes.MachineTier;
+import com.github.drakescraft_labs.slimefun4.core.attributes.MachineType;
+import com.github.drakescraft_labs.slimefun4.implementation.SlimefunItems;
+import com.github.drakescraft_labs.slimefun4.implementation.items.electric.gadgets.SolarHelmet;
+import com.github.drakescraft_labs.slimefun4.implementation.items.electric.generators.SolarGenerator;
 import dev.drake.dough.config.Config;
 import dev.drake.dough.items.CustomItemStack;
 import dev.drake.dough.updater.GitHubBuildsUpdater;
-import com.github.drakescraft-labs.slimefun4.utils.LoreBuilder;
-import com.github.drakescraft-labs.slimefun4.utils.SlimefunUtils;
+import com.github.drakescraft_labs.slimefun4.utils.LoreBuilder;
+import com.github.drakescraft_labs.slimefun4.utils.SlimefunUtils;
 
 public class EcoPowerPlugin extends JavaPlugin implements SlimefunAddon {
 
