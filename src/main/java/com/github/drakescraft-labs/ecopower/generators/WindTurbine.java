@@ -1,4 +1,4 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package com.github.drakescraft-labs.ecopower.generators;
 
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -12,12 +12,12 @@ import org.bukkit.block.BlockFace;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.EnergyNetProvider;
-import io.github.thebusybiscuit.slimefun4.core.networks.energy.EnergyNetComponentType;
+import com.github.drakescraft-labs.slimefun4.api.items.ItemGroup;
+import com.github.drakescraft-labs.slimefun4.api.items.SlimefunItem;
+import com.github.drakescraft-labs.slimefun4.api.items.SlimefunItemStack;
+import com.github.drakescraft-labs.slimefun4.api.recipes.RecipeType;
+import com.github.drakescraft-labs.slimefun4.core.attributes.EnergyNetProvider;
+import com.github.drakescraft-labs.slimefun4.core.networks.energy.EnergyNetComponentType;
 import me.mrCookieSlime.CSCoreLibPlugin.Configuration.Config;
 
 /**

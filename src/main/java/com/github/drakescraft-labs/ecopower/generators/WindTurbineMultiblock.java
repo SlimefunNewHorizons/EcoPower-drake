@@ -1,15 +1,15 @@
-package io.github.thebusybiscuit.ecopower.generators;
+package com.github.drakescraft-labs.ecopower.generators;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
-import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.core.attributes.NotPlaceable;
-import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuide;
-import io.github.thebusybiscuit.slimefun4.core.handlers.ItemUseHandler;
-import io.github.thebusybiscuit.slimefun4.implementation.items.SimpleSlimefunItem;
+import com.github.drakescraft-labs.slimefun4.api.items.ItemGroup;
+import com.github.drakescraft-labs.slimefun4.api.items.SlimefunItemStack;
+import com.github.drakescraft-labs.slimefun4.api.recipes.RecipeType;
+import com.github.drakescraft-labs.slimefun4.core.attributes.NotPlaceable;
+import com.github.drakescraft-labs.slimefun4.core.guide.SlimefunGuide;
+import com.github.drakescraft-labs.slimefun4.core.handlers.ItemUseHandler;
+import com.github.drakescraft-labs.slimefun4.implementation.items.SimpleSlimefunItem;
 
 /**
  * This is the multiblock variant of the {@link WindTurbine}, as shown in the {@link SlimefunGuide}.
