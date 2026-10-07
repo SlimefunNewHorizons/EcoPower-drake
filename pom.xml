@@ -12,8 +12,9 @@
         <slimefun.drake.version>11.0-Drake-1.21.11-SNAPSHOT</slimefun.drake.version>
         <dough.version>1.3.1-DRAKE-v11-SNAPSHOT</dough.version>
         <maven.deploy.skip>false</maven.deploy.skip>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <!-- The 26.x branch is built and executed with JDK 25. -->
+        <java.version>25</java.version>
+        <maven.compiler.release>${java.version}</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -144,6 +145,19 @@
         </resources>
 
         <plugins>
+            <!--
+                Maven 3.8 defaults to compiler-plugin 3.1, which does not
+                honour maven.compiler.release. Pin a current compiler so the
+                26.x artifact is actually emitted as Java 25 bytecode.
+            -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>${maven.compiler.release}</release>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
