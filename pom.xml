@@ -8,7 +8,7 @@
     <version>1.20.6-Universal-26.x-SNAPSHOT</version>
 
     <properties>
-        <paper.version>1.21.11-R0.1-SNAPSHOT</paper.version>
+        <paper.version>26.2.build.129-stable</paper.version>
         <slimefun.drake.version>11.0-Universal-26.x-SNAPSHOT</slimefun.drake.version>
         <maven.deploy.skip>false</maven.deploy.skip>
         <!-- The 26.x branch is built and executed with JDK 25. -->
